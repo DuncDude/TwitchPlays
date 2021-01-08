@@ -1,10 +1,10 @@
-#Twitch Plays Key Emulator
+**Twitch Plays Key Emulator**
 Twitch Plays Key Emulator (TPKE) is a program designed to make setups like the infamous TwitchPlayPokemon very easy.
 TPKE uses a JS script to read the contents of chat and listen for specfic keywords or commands such as !up, TPKE then using
 a Python2 script will emulate keyboard strokes mapped to those commands. The whole think comes in a nice GUI package which
 makes it easier for setup espically for the commandline wary.
 
-##Instalation
+**Instalation**
 Go ahead and download the repositry either the .zip or with 'git clone' then using the command line navigate into that
 directory. You will see a file called Install.sh, you will need to make this execuctable, do this by typing 'sudo chmod +x Install.sh'
 in the command line. After words you will want to run the install script by typing './Install.sh' this may take a minute
@@ -19,7 +19,7 @@ if you have trouble with this or errors you can try to manually install the depe
 'sudo npm i tmi.js --save'
 'sudo pip install pynput'
 
-##Running the Bot
+**Running the Bot**
 Now that you have all the dependices install you can run the bot by typing 'python gui2.py' in the commmand line. You will shown
 a screen with empty text boxes, click the 'load settings' button at the bottom to load the default settings. On the left you will
 see a list of commands the users can type in chat, on the right you will see what keys those commands will emulate on you keyboard
@@ -35,7 +35,7 @@ Certain games have differnt response for length of keyboard presses, you can cha
 In order to choose weither the bot uses WASD or arrow keys, select one of the radio buttons on the bottom left.
 When you have all your settings as you like, Click the 'Save Settings' button and then to start the bot hit 'Run BOt'
 
-## playing a game
+**Playing a game**
 Once your bot is running and listeing to chat, you can load up what ever emulator or game you like, as long as that Emulator or
 game is selected as your active window, the keyboard emulated strokes should be able to play it
 
