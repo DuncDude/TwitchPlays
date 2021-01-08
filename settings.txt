@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#The Channel that you want your bot to monitor chat(probaly your own)
+Directions set to wasd keys(default arrow keys)?
+arrows
+Mapping
+!up
+up
+!down
+down
+!left
+left
+!right
+right
+!start
+enter
+!a
+q
+!b
+w
+!x
+e
+!y
+b
+!r1 (R1)
+d
+!l1 (L1)
+f
+!select
+g
+!start
+Enter
+
+
